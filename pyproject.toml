@@ -5,6 +5,7 @@ description = "Backdoor Leakage"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "datasets>=4.0.0",
     "dotenv>=0.9.9",
     "llmcompare",
     "pandas>=2.3.1",
